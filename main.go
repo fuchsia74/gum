@@ -25,7 +25,7 @@ var (
 	CommitSHA = ""
 )
 
-var bubbleGumPink = lipgloss.NewStyle().Foreground(lipgloss.Color("212"))
+var bubbleGumPink = lipgloss.NewStyle().Foreground(lipgloss.Color("#0094FF"))
 
 func main() {
 	lipgloss.SetColorProfile(termenv.NewOutput(os.Stderr).EnvColorProfile())
